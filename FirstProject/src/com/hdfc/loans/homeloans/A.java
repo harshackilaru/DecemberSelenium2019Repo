@@ -2,7 +2,11 @@ package com.hdfc.loans.homeloans;
 
 public class A 
 {
+
 	int x=100,y=200,res;
+
+
+
 	
 	public  void m1()
 	{
@@ -11,8 +15,13 @@ public class A
 	
 	public void add()
 	{
+
 		res=x+y;
 		System.out.println("Addition of X & Y is : " + res);
+
+
+
+
 	}
 
 	public static void main(String[] args) 
