@@ -2,10 +2,12 @@ package com.hdfc.loans.homeloans;
 
 public class A 
 {
-	int x=10,y=20,z;
-	// test
-	int a,b;
-	
+
+	int x=100,y=200,res;
+        // test on c
+	int a,b,output;
+
+
 	public  void m1()
 	{
 		System.out.println("i am m1 from Class A");
@@ -13,8 +15,13 @@ public class A
 	
 	public void add()
 	{
-		z=x+y;
-		System.out.println("Add of A & A is : " + z);
+
+		res=x+y;
+		System.out.println("Addition of X & Y is : " + res);
+
+
+
+
 	}
 
 	public static void main(String[] args) 
