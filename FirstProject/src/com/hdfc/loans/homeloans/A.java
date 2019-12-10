@@ -4,6 +4,7 @@ public class A
 {
 	int x=10,y=20,z;
 	// test
+	int a,b;
 	
 	public  void m1()
 	{
