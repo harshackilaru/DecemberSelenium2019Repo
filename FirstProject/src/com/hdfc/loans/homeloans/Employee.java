@@ -7,18 +7,17 @@ public class Employee
 	float sal;
 	
 	
-	public Employee()
-	{
-		System.out.println("iam default noargument constructor....");
-		
-		System.out.println(this.eno);
-		System.out.println(this.ename);
-		System.out.println(this.sal);
-	}
+	/*
+	 * public Employee() {
+	 * System.out.println("iam default noargument constructor....");
+	 * 
+	 * System.out.println(this.eno); System.out.println(this.ename);
+	 * System.out.println(this.sal); }
+	 */
 	
 	public Employee(int eno) 
 	{
-		this();
+		//this();
 		this.eno=eno;
 		
 		System.out.println(this.eno);
